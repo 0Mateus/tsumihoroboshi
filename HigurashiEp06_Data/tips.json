@@ -3,85 +3,85 @@
         {
             "Id": 24,
             "Script": "_tsum_tips_001",
-            "Title": "Pleasant Weather",
+            "Title": "Um Dia Bonito",
             "TitleJp": "いいお天気"
         },
         {
             "Id": 25,
             "Script": "_tsum_tips_002",
-            "Title": "Business Card",
+            "Title": "Cartão de Visita",
             "TitleJp": "名刺"
         },
         {
             "Id": 26,
             "Script": "_tsum_tips_003",
-            "Title": "My Summer Vacation Picture Diary",
+            "Title": "Meu Álbum de Verão",
             "TitleJp": "夏休みの絵日記"
         },
         {
             "Id": 27,
             "Script": "_tsum_tips_004",
-            "Title": "Premonition Of Rainy Days",
+            "Title": "Premonição de Dias Chuvosos",
             "TitleJp": "雨雲の予感"
         },
         {
             "Id": 28,
             "Script": "_tsum_tips_005",
-            "Title": "Property Estimate",
+            "Title": "Cotação da Propriedade",
             "TitleJp": "お見積書"
         },
         {
             "Id": 29,
             "Script": "_tsum_tips_006",
-            "Title": "My Favorite Wine",
+            "Title": "Meu Vinho Predileto",
             "TitleJp": "お気に入りのワイン"
         },
         {
             "Id": 30,
             "Script": "_tsum_tips_007",
-            "Title": "Letter From The Forestry Office",
+            "Title": "Aviso do Serviço Florestal",
             "TitleJp": "営林署便り"
         },
         {
             "Id": 31,
             "Script": "_tsum_tips_008",
-            "Title": "Lunch Takeout List",
+            "Title": "Lista de Entregas para o Almoço",
             "TitleJp": "昼の出前リスト"
         },
         {
             "Id": 32,
             "Script": "_tsum_tips_009",
-            "Title": "Lunch Takeout List 2",
+            "Title": "Lista de Entregas para o Almoço 2",
             "TitleJp": "昼の出前リスト２"
         },
         {
             "Id": 33,
             "Script": "_tsum_tips_010",
-            "Title": "Lunch Takeout List 3",
+            "Title": "Lista de Entregas para o Almoço 3",
             "TitleJp": "昼の出前リスト３"
         },
         {
             "Id": 34,
             "Script": "_tsum_tips_011",
-            "Title": "\"Them\"",
+            "Title": "\"Os Outros\"",
             "TitleJp": "やつら"
         },
         {
             "Id": 35,
             "Script": "_tsum_tips_012",
-            "Title": "The Reason We Moved To Hinamizawa",
+            "Title": "Por que nos mudamos para Hinamizawa?",
             "TitleJp": "雛見沢だった訳"
         },
         {
             "Id": 36,
             "Script": "_tsum_tips_013",
-            "Title": "Last Night",
+            "Title": "A Noite Passada",
             "TitleJp": "前夜"
         },
         {
             "Id": 37,
             "Script": "_tsum_tips_014",
-            "Title": "The Demons' Script",
+            "Title": "O Roteiro do Demônio",
             "TitleJp": "悪魔の脚本"
         }
     ]
