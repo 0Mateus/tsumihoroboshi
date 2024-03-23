@@ -16,50 +16,50 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　きょうは、お母さんといっしょにプールリゾートにあそびに行きました。",
-		   NULL, "Today, I went to a swimming pool with my mom.", Line_Normal);
+		   NULL, "Hoje, fui a uma piscina pública com a minha mãe.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そしたらアキヒトおじさんもいっしょでした。",
-		   NULL, "Uncle Akihito came with us, too.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tio Akihito também veio com a gente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　たまに礼奈にいじわるするからきらいだけど、とてもやさしくておもしろいおじさんです。",
-		   NULL, "I don't like him because he's sometimes mean to me, but he's a very kind and funny old man.", Line_Normal);
+		   NULL, "Eu não gosto dele porque às vezes ele é malvado comigo, mas ele é um homem muito gentil e engraçado.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　プールにいるときはアキヒトおじさんがお父さんになってあげるから、礼奈ちゃんはおじさんのことをパパってよぶんだよと言われました。",
-		   NULL, "He told me to call him Daddy for that day, because he was going to play with me at the pool like he was my daddy.", Line_Normal);
+		   NULL, "Ele me disse para chamá-lo de papai naquele dia, porque ele ia brincar comigo na piscina como se fosse meu pai.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　お母さんもパパってよんだので礼奈もパパとよんだら、",
-		   NULL, "My mom called him Daddy, so I did, too.", Line_WaitForInput);
+		   NULL, "Minha mãe o chamou de papai, então eu também fiz isso.", Line_WaitForInput);
 	OutputLine(NULL, "アキヒトおじさんはすごいうれしそうで、礼奈にいっぱいいっぱいおこずかいをくれました。",
-		   NULL, " Uncle Akihito looked very happy and gave me a lot of money.", Line_Normal);
+		   NULL, " Tio Akihito parecia muito feliz e me deu muito dinheiro.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 0, "s_page", 56, 64 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　お母さんもすごいうれしそうで、礼奈もすごいうれしかったです。",
-		   NULL, "My mom looked very happy, and it made me happy, too.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Minha mãe parecia muito feliz, e isso também me deixou feliz.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　またあそびにきたいです。",
-		   NULL, "I want to play with him again.", Line_WaitForInput);
+		   NULL, "Eu quero brincar com ele de novo.", Line_WaitForInput);
 	OutputLine(NULL, "こんどはお父さんもいっしょがいいなと思いました。",
-		   NULL, " I hope my dad can come with us next time.", Line_Normal);
+		   NULL, " Espero que meu pai venha junto com a gente na próxima vez.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
