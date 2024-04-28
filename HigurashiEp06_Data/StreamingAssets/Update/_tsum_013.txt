@@ -360,7 +360,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-3>", Line_Continue); }
 	OutputLine(NULL, "　そして人食い鬼と呼ばれ、同時に仙人としても敬われていた古代の村人たちの話を、自慢のスクラップ帳を交えながら、懇切丁寧に説明してくれた。",
-		   NULL, "Ela também explicou a história de como os moradores eram nos velhos tempos, mostrando-me o scrapbook do qual ela tanto se orgulhava. Os moradores eram chamados de demônios devoradores de homens, mas também eram admirados como \"sen'nin\", pessoas iluminadas livres de desejos terrestres.", Line_Normal);
+		   NULL, "Ela também explicou a história de como os moradores eram nos velhos tempos, mostrando-me o scrapbook do qual ela tanto se orgulhava. Os moradores eram chamados de demônios devoradores de homens, mas também eram admirados como \"san'nin\", pessoas iluminadas livres de desejos terrestres.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
