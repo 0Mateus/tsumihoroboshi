@@ -10,25 +10,25 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "……沙都子からの返事は、まだない。",
-			NULL, ".........There still wasn't any reply from Satoko.", Line_Normal);
+			NULL, ".........Não houve qualquer resposta de Satoko.", Line_Normal);
 	ClearMessage();
 
 //rくそ……！　早く、レナが時限発火装置を隠した場所を見つけ出さないと！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "くそ……！　早く、レナが時限発火装置を隠した場所を見つけ出さないと！！",
-			NULL, "Shit......! If we don't find out where Rena's hidden the incendiary device quickly—!!", Line_Normal);
+			NULL, "Merda......! Se não descobrirmos logo onde rena escondeu a bomba-relógio—!!", Line_Normal);
 	ClearMessage();
 
 //rレナをこの場で取り押さえたいが、それよりも優先すべきは、装置の発見だ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "レナをこの場で取り押さえたいが、それよりも優先すべきは、装置の発見だ。",
-			NULL, "We've managed to confine her to this space, but finding the device is what's really important.", Line_Normal);
+			NULL, "Conseguimos confinar Rena nesta sala, mas encontrar o dispositivo é o que realmente importa agora.", Line_Normal);
 	ClearMessage();
 
 //r頼む…………沙都子、お前だけが頼りなんだ！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "頼む…………沙都子、お前だけが頼りなんだ！！",
-			NULL, "Please.........Satoko, you're the only one we're counting on!!", Line_Normal);
+			NULL, "Por favor.........Satoko, estamos contando com você!!", Line_Normal);
 	ClearMessage();
 
 	ModSetLayerFilter(4, 256, "sunset");
@@ -48,7 +48,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s09/02/170201630", 256, TRUE);
 	OutputLine(NULL, "「すごいよ、すごいよ、これは部活じゃないんだよ？",
-			NULL, "Awesome, awesome, it's not like we're having club activities or anything, you know?", Line_WaitForInput);
+			NULL, "Incrível, incrível, mas não é como se estivessemos tendo atividades do clube ou algo assim, sabe?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s09/02/170201629", 256, TRUE);
 	OutputLine(NULL, "　あははははははははははははははは！！」",
 			NULL, " Ahahahahahahahahahahahahahahaha!!\"", Line_Normal);
@@ -57,7 +57,7 @@ void main()
 //r梨花ちゃんを突き飛ばしたレナは、ゆらぁり、と凶悪に輝く目に怒りを浮かべながら、立ち上がって俺に向き直る。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "梨花ちゃんを突き飛ばしたレナは、ゆらぁり、と凶悪に輝く目に怒りを浮かべながら、立ち上がって俺に向き直る。",
-			NULL, "Rena who had thrown Rika-chan aside, swung around to face me as she stood up, her eyes glittering with fury.", Line_Normal);
+			NULL, "Rena que havia jogado Rika-chan para o lado, virava em minha direção enquanto se levantava, seus olhos estavam preenchidos com fúria.", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 2, "sprite/renasen1_ikakaku_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 200, TRUE );
@@ -65,7 +65,7 @@ void main()
 //rそして、冷たい笑みを身の毛がよだつような声に乗せて、手に持ったbなた.<鉈>を上段に振りかぶって構えた。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして、冷たい笑みを身の毛がよだつような声に乗せて、手に持った鉈(なた)を上段に振りかぶって構えた。",
-			NULL, "And then, with an icy jeer enough to make my hairs stand on their ends, she raised her hatchet above her head.", Line_Normal);
+			NULL, "E então, com uma risada tão arrepiante que poderia deixar todos os meus cabelos de pé, ela levantou o nata para cima de sua cabeça.", Line_Normal);
 	ClearMessage();
 
 //レナrvS09/02/170201648.「ひゃああああああああッ！！！kvS09/02/170201649.　一撃で叩き割ってあげるよおおおおおおおおッツ！！！！！」
@@ -75,13 +75,13 @@ void main()
 			NULL, "\"Hyaaaaaaaaaaaaa~!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s09/02/170201649", 256, TRUE);
 	OutputLine(NULL, "　一撃で叩き割ってあげるよおおおおおおおおッツ！！！！！」",
-			NULL, " I'll smash your head in with a single striiiiiiikeeeeee~!!!!!\"", Line_Normal);
+			NULL, " Só preciso de um golpeee!!!!!\"", Line_Normal);
 	ClearMessage();
 
 //r――――くそっ……！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "————くそっ……！！",
-			NULL, "Shit......!!", Line_Normal);
+			NULL, "Merda......!!", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -91,7 +91,7 @@ void main()
 //r懸命に気持ちを奮い立たせた俺は、間合いをつめてきたレナの攻撃に対して身体をひねりながら、辛うじてかわす。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "懸命に気持ちを奮い立たせた俺は、間合いをつめてきたレナの攻撃に対して身体をひねりながら、辛うじてかわす。",
-			NULL, "Adrenaline gushing through my veins, I twisted my body to barely dodge Rena's attack as the hatchet sliced through the air. ", Line_Normal);
+			NULL, "Com adrenalina fluindo através das minhas veias, virei meu corpo para por pouco conseguir desviar do ataque mortal de Rena. ", Line_Normal);
 	ClearMessage();
 
 	PlaySE(3, "s_tataku", 256, 64);
@@ -102,7 +102,7 @@ void main()
 //r勢いよく振り下ろしたbなた.<鉈>は轟音とともに木の床に深くめり込むが、レナはなんでもなかったようにそれを引き抜くと、再びそれを構えてにたり……と、赤い舌を出しながら笑った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "勢いよく振り下ろした鉈(なた)は轟音とともに木の床に深くめり込むが、レナはなんでもなかったようにそれを引き抜くと、再びそれを構えてにたり……と、赤い舌を出しながら笑った。",
-			NULL, "The hatchet she had swung recklessly sunk into the wooden floor with a thunderous roar, and Rena retracted it as if it were nothing and held it up once more as she sniggered, flashing her red tongue in mirth.", Line_Normal);
+			NULL, "O nata que ela segurava imprudentemente afundou no chão de madeira causando um rugido estrondoso, Rena o retirou como se não fosse nada e o ergueu novamente, rindo e mostrando sua lingua.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -126,10 +126,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s09/02/170201649_1", 256, TRUE);
 	OutputLine(NULL, "「さよなら、圭一くん。",
-			NULL, "\"Goodbye, Keiichi-kun.", Line_WaitForInput);
+			NULL, "\"Adeus, Keiichi-kun.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s09/02/170201649_2", 256, TRUE);
 	OutputLine(NULL, "…………レナに謝ってもいいよ？」",
-			NULL, " .........You're free to apologize to me when you have the chance.\"", Line_Normal);
+			NULL, " .........Você pode se desculpar comigo quando tiver chance.\"", Line_Normal);
 	ClearMessage();
 
 	ModDrawCharacter(4, 2, "sprite/renasen2_muhyokaku_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 19, 0, FALSE );
@@ -138,26 +138,26 @@ void main()
 //rちきしょう…………ッ！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ちきしょう…………ッ！！",
-			NULL, "Fuck.........~!!", Line_Normal);
+			NULL, "Droga.........!!", Line_Normal);
 	ClearMessage();
 
 //rこんなところで、時間をつぶしている場合じゃないんだ。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "こんなところで、時間をつぶしている場合じゃないんだ。",
-			NULL, "I wasn't supposed to be wasting my time doing this.", Line_Normal);
+			NULL, "Eu não deveria perder meu tempo fazendo uma coisa dessas.", Line_Normal);
 	ClearMessage();
 
 //r早くしなければ、……レナの仕掛けた時限発火装置が………………！！！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "早くしなければ、……レナの仕掛けた時限発火装置が………………！！！",
-			NULL, "If I don't hurry up, ......the explosive device Rena set up is going to...............!!!", Line_Normal);
+			NULL, "Se eu não me apressar, ......a bomba-relógio que ela armou vai...............!!!", Line_Normal);
 	ClearMessage();
 
 //沙都子rvS09/04/170400182.「圭一さぁあん、もう時間がああああッ！！！」
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s09/04/170400182", 256, TRUE);
 	OutputLine(NULL, "「圭一さぁあん、もう時間がああああッ！！！」",
-			NULL, "\"Keiichi-saaan, we don't have tiiiimeeeee~!!!\"", Line_Normal);
+			NULL, "\"Keiichi-saaan, não temos tempooo~!!!\"", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM(2, 300, FALSE);
@@ -165,7 +165,7 @@ void main()
 //rそして、沙都子が悲痛な悲鳴を上げた、そのときだった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして、沙都子が悲痛な悲鳴を上げた、そのときだった。",
-			NULL, "And then, it was immediately after Satoko's desperate scream.", Line_Normal);
+			NULL, "E então, imediatamente após o grito desesperado de Satoko.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -179,13 +179,13 @@ void main()
 //r目の前の世界から、全てのものが消え去った。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "目の前の世界から、全てのものが消え去った。",
-			NULL, "Anything and everything in the world before me disappeared into the void.", Line_Normal);
+			NULL, "Tudo e todos no mundo diante dos meus olhos desapareceram repentinamente, devorados pelo vazio.", Line_Normal);
 	ClearMessage();
 
 //rそして、俺自身も………………。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そして、俺自身も………………。",
-			NULL, "Including, myself...............", Line_Normal);
+			NULL, "Incluindo, eu mesmo...............", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
