@@ -647,7 +647,7 @@ void main()
 			 NULL, "Eu me encaminhei até o carro negro estacionado perto do portão e bati na janela dele.", Line_Normal);
 	ClearMessage();
 
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>組員</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>組員</color>", NULL, "<color=#f5e6d3>Gângster</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s09/00/vt3_kumiina1001", 256, TRUE);
 	OutputLine(NULL, "「お疲れ様です。",
 			 NULL, "\"Como estão as coisas?", Line_WaitForInput);
@@ -867,7 +867,7 @@ void main()
 	ClearMessage();
 
 //組員rvS09/00/VT3_kumiinA1003.「山のほうっすね。kvS09/00/VT3_kumiinA1004.このまま行くと、谷をまたいだ隣の町へのルートになるっす」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>組員</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>組員</color>", NULL, "<color=#f5e6d3>Gângster</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s09/00/vt3_kumiina1003", 256, TRUE);
 	OutputLine(NULL, "「山のほうっすね。",
 			NULL, "\"Provavelmente para as montanhas.", Line_WaitForInput);
@@ -945,7 +945,7 @@ void main()
 //r二人の仲が悪いという意味じゃない。レナはいい生徒だから、先生との関係も良好だった。
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "二人の仲が悪いという意味じゃない。レナはいい生徒だから、先生との関係も良好だった。",
-			NULL, "Não é como se elas tivessem uma má relação. Rena era uma boa estudante, então ela tinha um bom relacionamento com a sua professora.", Line_Normal);
+			NULL, "Não é como se elas tivessem uma má relação. Rena era uma boa aluna, então ela tinha um bom relacionamento com a sua professora.", Line_Normal);
 	ClearMessage();
 
 //rしかしだからといって、知恵先生をわざわざ呼び出してまで相談するような親密さと信頼関係があったとも思えない。
@@ -999,7 +999,7 @@ void main()
 	ClearMessage();
 
 //組員rvS09/00/VT3_kumiinA1005.「え、えっ？」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>組員</color>", NULL, "<color=#f5e6d3>Gangster</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>組員</color>", NULL, "<color=#f5e6d3>Gângster</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s09/00/vt3_kumiina1005", 256, TRUE);
 	OutputLine(NULL, "「え、えっ？」",
 			NULL, "\"Eh, ehh?\"", Line_Normal);
@@ -1537,7 +1537,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#8f6d8f>熊谷</color>", NULL, "<color=#8f6d8f>Kumagai</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 19, "ps3/s09/19/173100085", 256, TRUE);
 	OutputLine(NULL, "「いえ、何度かカーテンから覗く人影がありましたが、いずれも竜宮礼奈本人でした。",
-			 NULL, "\"Não. Vimos alguém espreitando por trás da cortina, mas era a própria Ryuugu Rena.", Line_WaitForInput);
+			 NULL, "\"Não. Vimos alguém espreitando por trás da cortina, mas era a própria Ryuugu Reina.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 19, "ps3/s09/19/173100086", 256, TRUE);
 	OutputLine(NULL, "……ですが規模他を考えて、おそらく最低でも、もう１〜２人はいると予想されます。」",
 			 NULL, " Estamos supondo que possa haver pelo menos mais um ou dois deles.\"", GetGlobalFlag(GLinemodeSp));
@@ -1564,12 +1564,12 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s09/11/170700321_2", 256, TRUE);
 	OutputLine(NULL, "「だ、大丈夫ですか…。」",
-			 NULL, "\"Você está bem?\"", GetGlobalFlag(GLinemodeSp));
+			 NULL, "\"V-Você está bem?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ハンカチを目に当てながら泣き崩れる知恵先生に大石が駆け寄る…。",
-			 NULL, "Ooishi correu até Chie-sensei, que estava chorando segurando um lenço perto do rosto.", Line_Normal);
+			 NULL, "Ooishi correu até Chie-sensei, que estava em lágrimas, segurando um lenço contra o rosto.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
