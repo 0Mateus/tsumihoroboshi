@@ -1,0 +1,107 @@
+#include	"Include\bss.h"
+#include	"Include\WorksAndFlags.h"
+void main() 
+{		   
+//prologue
+
+	//Forçar NVL
+	ModEnableNVLModeInADVMode()
+	FadeOutBGM( 0, 0, FALSE );
+	FadeOutBGM( 1, 0, FALSE );
+	FadeOutBGM( 2, 0, FALSE );
+	FadeOutBGM( 3, 0, FALSE );
+	DrawBustshot( 19, "no_data", 0, 100, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, TRUE );
+	ClearMessage();
+	
+	Wait( 2000 );
+	DrawScene( "black", 200 );
+
+	OutputLine(NULL, "",
+		   NULL, " Chie Rumiko foi inspirada na personagem Ciel, da Visual Novel Ｔｓｕｋｉｈｉｍｅ, produzida pela ＴｙｐｅＭｏｏｎ.", Line_ContinueAfterTyping);
+	
+	OutputLine(NULL, "",
+		   NULL, " Esta pequena e tola história, provavelmente não muito boa, é uma brincadeira feita por mim, trocando Chie por Ciel, no mundo de Higurashi.", Line_ContinueAfterTyping);		   
+		   
+	OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping);				
+	OutputLine(NULL, "",
+		   NULL, "            dharmapoa", Line_Normal);
+	ClearMessage();
+		   
+//begin
+
+	PlayBGM( 0, "mion", 80, 0 );
+	DrawScene( "white", 1000 );
+	DrawBustshot( 0, "extra/ciela", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 8, 200, FALSE );
+	DrawScene( "background/gr2", 200 );
+	OutputLine(NULL, "",
+		   NULL, "E assim, Ciel-Senpai começou seu novo trabalho como professora em Hinamizawa.", Line_Normal);
+	ClearMessage();
+	DrawScene( "black", 400 );
+	OutputLine(NULL, "",
+		   NULL, "Como ela chegou aqui?", Line_WaitForInput);
+	OutputLine(NULL, "",
+		   NULL, " Através de seus velhos contatos, dos tempos de lutas.", Line_Normal);
+	ClearMessage();		   
+	DrawBustshot( 2, "extra/oryou_Def_0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 8, 200, FALSE );
+	DrawScene( "extra/ryoutei2_01", 200 );
+	OutputLine(NULL, "",
+		   NULL, "Há muito havia prestado seus serviços à uma velha senhora chamada Oryou, líder de uma yakuza na região de Shishibone.", Line_WaitForInput);
+	DrawBustshot( 2, "extra/oryou_Warai_0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 8, 200, TRUE );
+	OutputLine(NULL, "",
+		   NULL, " Tendo gostado do trabalho de Ciel, Oryou contratou-a como a nova professora da vila.", Line_Normal);
+	ClearMessage();		   
+	DrawScene( "black", 400 );
+	DrawScene( "background/damu2", 400 );
+	OutputLine(NULL, "",
+		   NULL, "Dizem que ninguém mais aceitava o cargo, mas a família Sonozaki, consciente da tensão crescente no ar em toda a região, precisava de uma profissional de pulso firme para poder tomar conta das coisas.", Line_WaitForInput);
+	ClearMessage();
+	DrawScene( "background/sora", 1000 );
+	DrawScene( "black", 400 );
+	DrawBustshot( 0, "extra/cielb", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, FALSE );
+	DrawScene( "background/moon", 400 );
+	PlaySE(0, "s_ken_b8k", 80, 64);
+	OutputLine(NULL, "",
+		   NULL, " Em suas horas de folga, Ciel-Senpai fazia serviços extras para os Sonozaki, como quando intermediou a libertação do neto de um famoso ministro que havia sido sequestrado.", Line_WaitForInput);
+	FadeBustshotWithFiltering( 0, "" , 7, FALSE, 0, 0, 200, TRUE );
+	DrawBustshot( 2, "sprite/night/oisi1_2_", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 9, 200, TRUE );
+	DrawBustshot( 1, "sprite/night/kuma_warai_", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 8, 200, TRUE );
+	OutputLine(NULL, "",
+		   NULL, " Como seu trabalho foi nas sombras, é claro que a polícia acabou levando o crédito pela operação.", Line_Normal);
+	ClearMessage();
+	DrawScene( "dark", 300 );
+	DrawScene( "background/gk3", 1000 );
+	DrawBustshot( 1, "sprite/sa1b_akuwarai_b1_", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 5, 200, FALSE );
+	DrawBustshot( 2, "sprite/ri1_warai_a1_", 240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 6, 200, FALSE );
+	DrawBustshot( 0, "sprite/me2_def_a1_", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 7, 200, FALSE );
+	DrawScene( "background/gk3", 200 );
+	OutputLine(NULL, "",
+		   NULL, "Ciel é amada por todos os seus alunos, o que lhe dá muita satisfação.", Line_Normal);
+	ClearMessage();
+	FadeAllBustshots( 300, TRUE );
+	DrawBustshot( 0, "extra/ciela", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 9, 200, FALSE );
+	DrawScene( "background/gk3", 200 );
+	OutputLine(NULL, "",
+		   NULL, "Quais serão as novas aventuras que aguardam por Ciel-Senpai?", Line_Normal);
+	ClearMessage();
+	OutputLineAll(NULL, "\n", Line_ContinueAfterTyping);
+	DrawScene( "dark", 200 );
+	OutputLine(NULL, "",
+		   NULL, "FIM", Line_Normal);
+	ClearMessage();
+	
+	FadeOutBGM( 0, 1000, TRUE );
+
+	//Voltar para ADV
+	ModDisableNVLModeInADVMode()
+
+//end
+	
+
+
+}
+
+
+
+
+
+
