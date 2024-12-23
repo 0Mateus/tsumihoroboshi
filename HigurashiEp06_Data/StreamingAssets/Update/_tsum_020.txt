@@ -1669,7 +1669,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　相手の出方をしばらく待つと、…そいつは口を開いた。",
-		   NULL, "Eu esperei até que <i>ela</i> fizesse algum movimento... E então, <i>ela</i> abriu sua boa mais uma vez.", Line_Normal);
+		   NULL, "Eu esperei até que <i>ela</i> fizesse algum movimento... E então, <i>ela</i> abriu sua boca mais uma vez.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "background/moon", 400 );
