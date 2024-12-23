@@ -1387,7 +1387,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s09/02/170201234", 256, TRUE);
 	OutputLine(NULL, "「もういいや。",
-		   NULL, "\"Já chega de enrolar?", Line_WaitForInput);
+		   NULL, "\"Já chega de enrolar.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s09/02/170201235", 256, TRUE);
 	OutputLine(NULL, "圭一くんには真実を教えてあげよう。",
 		   NULL, " Keiichi-kun, vou te contar a verdade.", Line_WaitForInput);
