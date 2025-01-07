@@ -1100,7 +1100,7 @@ void main()
 //r魅音、沙都子、梨花ちゃん、…そのほかの誰かでも、構わない！
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "魅音、沙都子、梨花ちゃん、…そのほかの誰かでも、構わない！",
-			NULL, "Mion, Satoko, Rika-chan, ...Eu não me importo se for outra pessoa!", Line_Normal);
+			NULL, "Mion, Satoko, Rika-chan, ...eu não me importo se for outra pessoa!", Line_Normal);
 	ClearMessage();
 
 //r早くこのことを、学校にいる連中に伝えなくては！
