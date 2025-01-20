@@ -250,7 +250,7 @@ void main()
 		   NULL, "E quanto a você, Rena? Você pode se mover rapidamente, mas também pode acabar sendo o alvo delas, então tenha cuidado!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s09/01/hr_kei22230", 256, TRUE);
 	OutputLine(NULL, "　そう言えば最近のレナは罰ゲーム常連だな。」",
-		   NULL, " Ultimamente você tem tomando a maior parte das punições.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ultimamente você tem tomado a maior parte das punições.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
