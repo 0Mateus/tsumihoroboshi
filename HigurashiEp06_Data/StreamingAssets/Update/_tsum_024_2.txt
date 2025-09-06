@@ -585,21 +585,21 @@ void main()
 		   NULL, "...Pelo menos, temos de nos certificar que ninguém seja morto.", Line_Normal);
 	ClearMessage();
 
+	//;
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "org/mion5017", 256, TRUE);
-	OutputLine(NULL, "「……………………従おう。」",
-		   NULL, "\"...Vamos acatar.\"", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「……………………従おう。",
+		   NULL, "\"...Vamos acatar.", Line_WaitForInput);
+	// if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
 	ModDrawCharacter(1, 3, "portrait/me1a_yowaki_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 400, TRUE );
 
-	//;
 	// if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	// ModPlayVoiceLS(4, 3, "org/mion5018", 256, TRUE);
-	// OutputLine(NULL, "「圭ちゃん……。」",
-	// 	   NULL, "\"Kei-chan...\"", Line_Normal);
-	// ClearMessage();
+	ModPlayVoiceLS(4, 3, "org/mion5018", 256, TRUE);
+	OutputLine(NULL, "圭ちゃん……。」",
+		   NULL, " Kei-chan...\"", Line_Normal);
+	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナを取り押さえるあらゆる手を数手先まで読んでいた魅音だったが、",
